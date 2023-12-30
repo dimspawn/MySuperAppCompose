@@ -41,7 +41,6 @@ fun SearchScreen(
 ) {
     //val query by homeViewModel.query
     val focusRequester = remember { FocusRequester() }
-    val contextDel = LocalContext.current
     //val uiStateProduct by remember { viewModel.uiStateProduct }.collectAsState()
 
     LaunchedEffect(Unit) {

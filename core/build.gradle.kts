@@ -1,6 +1,3 @@
-import com.android.build.api.dsl.Packaging
-import dependencies.MyDependencies
-
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
